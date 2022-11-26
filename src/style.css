@@ -1,0 +1,70 @@
+body {
+  background-color: #e7dadb;
+  opacity: 0.95;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/Koto_musician_painting_by_Hasegawa_1878.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 60px 50px;
+  font-family: "Dancing Script", cursive;
+}
+
+.emoji {
+  font-size: 8px;
+}
+h3 {
+  padding-top: 70px;
+  font-size: 40px;
+  margin: 30px;
+}
+h1 {
+  font-size: 96px;
+  margin: 0;
+}
+h2 {
+  font-size: 64px;
+  margin: 30px;
+}
+.learn-button {
+  margin: 30px;
+  padding: 7px 20px;
+  border-radius: 30px;
+  border: 1px solid pink;
+  font-size: 36px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700px;
+  color: white;
+  background: #866c69;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .learn-button {
+    font-size: 20px;
+  }
+  header {
+    background-size: auto;
+    padding: 30px;
+  }
+}
