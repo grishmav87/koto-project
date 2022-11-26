@@ -21,16 +21,16 @@ header {
 .emoji {
   font-size: 8px;
 }
-h3 {
+header h3 {
   padding-top: 70px;
   font-size: 40px;
   margin: 30px;
 }
-h1 {
+header h1 {
   font-size: 96px;
   margin: 0;
 }
-h2 {
+header h2 {
   font-size: 64px;
   margin: 30px;
 }
@@ -45,18 +45,55 @@ h2 {
   color: white;
   background: #866c69;
 }
-a {
+header a {
   text-decoration: none;
   color: white;
 }
+footer a {
+  color: white;
+}
+footer {
+  background-image: linear-gradient(
+      rgba(134, 108, 105, 0.6),
+      rgba(134, 108, 105, 0.6)
+    ),
+    url(../images/footer_img.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+.grid-column {
+  padding: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 20px;
+  padding: 40px 60px;
+}
+.grid h3 {
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+}
+.grid p {
+  font-size: 18px;
+}
 @media (max-width: 800px) {
-  h1 {
+  header h1 {
     font-size: 48px;
   }
-  h2 {
+  header h2 {
     font-size: 32px;
   }
-  h3 {
+  header h3 {
     font-size: 20px;
     margin: 10px;
   }
@@ -66,5 +103,22 @@ a {
   header {
     background-size: auto;
     padding: 30px;
+  }
+  .grid-column {
+    padding: 10px 20px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 40px;
+  }
+
+  .grid h3 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  .grid p {
+    font-size: 16px;
   }
 }
