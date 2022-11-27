@@ -82,7 +82,7 @@ p a {
   color: #866c69;
 }
 section {
-  padding: 50px 100px;
+  padding: 40px 100px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: fit-content;
 }
@@ -101,6 +101,11 @@ section h3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
+}
+.section-two h2 {
+  text-align: center;
+  color: white;
+  padding-bottom: 30px;
 }
 .card {
   padding: 40px;
@@ -121,7 +126,6 @@ footer {
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 ul {
   list-style: none;
   padding: 0;
